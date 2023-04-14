@@ -78,6 +78,17 @@ public class Test : MonoBehaviour
         Midboss boss = new Midboss();
         boss.atack();
         boss.defend(20);
+
+        //‚±‚±‚©‚ç‰Û‘è
+        int[] array = { 0, 1, 2, 3, 4 };
+        for(int i = 0; i < 5; i++)
+        {
+            Debug.Log("array[i]=" + array[i]);
+        }
+        for(int i = 4; i >= 0; i--)
+        {
+            Debug.Log("array[i]=" + array[i]);
+        }
     }
 
     // Update is called once per frame
